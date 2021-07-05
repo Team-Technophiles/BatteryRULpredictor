@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Portend </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" type="image/png" href={% static "images_result/icons/favicon.ico" %} />
+		<!-- LINEARICONS -->
+		<link rel="stylesheet" href={% static  "fonts/linearicons/style.css" %}>
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href={% static  "fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" %}>
+
+		<!-- DATE-PICKER -->
+		<link rel="stylesheet" href={% static  "vendor/date-picker/css/datepicker.min.css" %}>
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href={% static  "css/style.css" %}>
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="{% url 'result' %}">
+					{% csrf_token %}
+					<h3>Remaining Cycles predicition</h3>
+					<div class="form-wrapper">
+						<label for="">Type of Battery</label>
+						<select name="Model" id="" class="form-control">
+							<!-- <option value="1">24 deg. Discharge was carried out using a 0.05Hz square wave loading profile of 4A amplitude and 50% duty cycle</option> -->
+							<option value="2">Temp.: 43 deg. Discharge_current: 4A</option>
+							<option value="3">Temp.: 24 deg. Discharge_current: 4A</option>
+							<option value="4">Temp.: 24&44 deg. Discharge_current: (1, 2, and 4 A)</option>
+							<option value="5">Temp.: 4 deg. Discharge_current: (4 and 1 A)</option>
+							<option value="6">24 deg. Discharge was carried out using a 0.05Hz square wave loading profile of 4A amplitude and 50% duty cycle</option>
+							<option value="7">Temp.: 4 deg. Discharge_current: 4A</option>
+							<option value="8">Temp: 43 deg. Discharge_current: 2A</option>
+
+							<!-- <option value="6">8</option> -->
+							
+						</select>
+						<i class="zmdi zmdi-chevron-down"></i>
+					</div>
+					<br>
+					
+						<div class="form-wrapper">
+							<label for="">No of Cycle Consumed</label>
+							<input required name="CYC" type="text" class="form-control" placeholder="Enter the No of cycles between 0-120">
+						</div>
+						<br>
+						<div class="form-wrapper">
+							<label for="">Min VOTTAGE Required(in Ah)</label>
+							<input required name="VOL" type="text" class="form-control" placeholder="Enter the Voltage between 0-1.4">
+						</div>
+
+					
+
+					<!-- <input type="submit" value="Predict" class="" text="Results" data-text="Cycles"> -->
+					<div align='center'>
+					<button data-text="Cycles" value="Predict" type="submit" text="results" >
+                        <span>Predict Your Remaning Cycle</span>
+                    </button>
+					
+				</div>
+				
+				</form>
+			</div>
+		</div>
+		
+		<script src={% static  "js/jquery-3.3.1.min.js" %}></script>
+
+		<!-- DATE-PICKER -->
+		<script src={% static  "vendor/date-picker/js/datepicker.js" %}></script>
+		<script src={% static  "vendor/date-picker/js/datepicker.en.js" %}></script>
+
+		<script src={% static  "js/main.js" %}></script>
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

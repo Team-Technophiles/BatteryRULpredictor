@@ -1,0 +1,93 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href={% static "images_result/icons/favicon.ico" %} />
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href={% static "images_result/icons/favicon.ico" %} />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/bootstrap/css/bootstrap.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "fonts_result/font-awesome-4.7.0/css/font-awesome.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "fonts_result/Linearicons-Free-v1.0.0/icon-font.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/animate/animate.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/css-hamburgers/hamburgers.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/animsition/css/animsition.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/select2/select2.min.css" %}>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "vendor_result/daterangepicker/daterangepicker.css" %}>
+    <link href="{% static "https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static "fonts_result/icomoon/style.css" %}">
+
+    <link rel="stylesheet" href="{% static "css_result/owl.carousel.min.css" %}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static "css_result/bootstrap.min.css" %}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href={% static "css_result/util.css" %}>
+    <link rel="stylesheet" type="text/css" href={% static "css_result/main.css" %}>
+    <!--===============================================================================================-->
+    <title> Portend Result</title>
+
+</head>
+
+<body>
+    <div style="padding-top: 150px; padding-bottom: 150px;" class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static "images_result/bg-02.jpg" %}" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-md-6 contents">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <div class="mb-4">
+                                <h1>Battery RUL Prediction</h1>
+                                <p class="mb-4">Prediction is shown below.</p>
+                            </div>
+                        
+
+                            <h2>
+                                Predicted Battery Capacity "{{prediction}}" 
+                            </h2>
+                            <br>
+                            <h2>
+                                RUL is "{{rul}}" Charge/Discharge Cycle(s)
+                            </h2> 
+                            <br>
+                            <button type="submit" value="Return To Home" onclick="location.href='{% url 'home' %}'" class="contact100-form-btn">Return To Home</button>
+                            <br>
+                            <button type="submit" value="graphs" onclick="location.href='{% url 'graphs' %}'" class="contact100-form-btn"> Visual Representation</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
