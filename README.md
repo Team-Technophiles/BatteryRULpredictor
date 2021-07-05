@@ -36,17 +36,17 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 ## Home Page
 
 >It first ask user to select battery type followed by the no. of cycle consumed (between 0 to 120) and at last the minimum voltage required
-<p align="center"><img src="images/home2.png" align="center" width=80% height=80%></p>
+<p align="center"><img src="images/home2.png" width=80% height=80%></p>
 
 ## Result
 
 >It gives user the predicted battery capacity in Ah and also the Remaining Useful Life(RUL) cycles.
-<p align="center"><img src="images/result.png" align="center" width=80% height=80%></p>
+<p align="center"><img src="images/result.png" width=80% height=80%></p>
 
 ## Graph
 
 >Visual Representation of NASA PROGNOSTIC DATASET
-<p align="center"><img src="images/graph.png" align="center" width=80% height=80%></p>
+<p align="center"><img src="images/graph.png" width=80% height=80%></p>
 
 > **Presentation:** [T40](https://github.com/rushabh1605/Portend/blob/main/T40.pptx)
 
