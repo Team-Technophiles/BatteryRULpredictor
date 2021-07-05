@@ -23,7 +23,7 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 
 ### **Our Approach / Solution :**
 
->> <img src="images/flowchart_3.png" >
+>> <img src="images/flowchart_3.png" width=80% height=80%>
 
     
      Website:
@@ -40,12 +40,12 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 ## Result
 
 >It gives user the predicted battery capacity in Ah and also the Remaining Useful Life(RUL) cycles.
-<img src="images/result.png" align="centre">
+<img src="images/result.png" align="centre" width=80% height=80%>
 
 ## Graph
 
 >Visual Representation of NASA PROGNOSTIC DATASET
-<img src="images/graph.png" align="centre">
+<img src="images/graph.png" align="centre" width=80% height=80%>
 
 > **Presentation:** [T40](https://github.com/rushabh1605/Portend/blob/main/T40.pptx)
 
