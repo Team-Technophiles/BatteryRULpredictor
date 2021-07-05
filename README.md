@@ -46,7 +46,7 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 ## Graph
 
 >Visual Representation of NASA PROGNOSTIC DATASET
-<img src="images/graph.png" align="centre" width=80% height=80%>
+<img src="images/graph.png" align="center" width=80% height=80%>
 
 > **Presentation:** [T40](https://github.com/rushabh1605/Portend/blob/main/T40.pptx)
 
