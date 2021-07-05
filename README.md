@@ -35,7 +35,7 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 ## Home Page
 
 >It first ask user to select battery type followed by the no. of cycle consumed (between 0 to 120) and at last the minimum voltage required
-<img src="images/home2.png" align="centre" width=80% height=80$>
+<img src="images/home2.png" align="centre" width=80% height=80%>
 
 ## Result
 
