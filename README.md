@@ -35,7 +35,7 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 ## Home Page
 
 >It first ask user to select battery type followed by the no. of cycle consumed (between 0 to 120) and at last the minimum voltage required
-<img src="images/home2.png" align="centre">
+<img src="images/home2.png" align="centre" width=80% height=80$>
 
 ## Result
 
@@ -44,6 +44,7 @@ Team Members: Rushabh Thakkar, Divy Patel, Denish Kalariya, Yug Thakkar and Shub
 
 ## Graph
 
+>Visual Representation of NASA PROGNOSTIC DATASET
 <img src="images/graph.png" align="centre">
 
 > **Presentation:** [T40](https://github.com/rushabh1605/Portend/blob/main/T40.pptx)
