@@ -1,5 +1,5 @@
 # Portend
-We predict, you benifit.
+We predict, you benefit.
 
 ## Let's Hack 4.0
 
